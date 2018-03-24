@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>Number Guesser</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h2 class="number">Number</h2>
+      <h2 class="guesser">Guesser</h2>
+    </header>
+    <main>
+      <form class ="usersubmit">
+        <input type="text" name="usernumber" placeholder="Enter your guess" class="userguess">  
+        <br> 
+        <input type="submit" value="Guess" class="guessbutton" disabled>
+        <input type="reset" value="Clear" class="clearbutton" disabled>
+      <form>
+      <section class ="answer">
+        <h4>Your last guess was</h4>
+        <h1>_</h1>
+        <h4 class="toohighorlow">Guess a number above</h4>
+      </section>
+      <input type="reset" value="Reset" class="resetbutton" disabled>
+    </main>
+  <script src = "apply.js"> </script>
+  </body>
+</html>
